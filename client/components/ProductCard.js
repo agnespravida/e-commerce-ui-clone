@@ -1,6 +1,8 @@
 import React from 'react'
 import { Card, Title } from 'react-native-paper'
 import { Image, Text } from 'react-native'
+import  StarRating  from 'react-native-star-rating'
+
 function ProductCard ({ item }) {
   function convertedRupiah () {
     let rupiah = ''
@@ -13,7 +15,14 @@ function ProductCard ({ item }) {
       <Image source={{ uri: item.imageUrl }} style={{width: 180, height: 160}}/>
       <Card.Content>
         <Text style={{fontSize: 11, marginTop: 10}}>{item.name}</Text>
-        <Text style={{fontSize: 11, fontWeight: 'bold', marginTop: 3}}>{convertedRupiah()}</Text>
+        <Text style={{fontSize: 11, fontWeight: 'bold',  marginTop: 3}}>{convertedRupiah()}</Text>
+        <StarRating
+        starSize={15}
+        rating={5}
+        fullStarColor={"#ffcc00"}
+        starStyle={{marginTop: 5}}
+        containerStyle={{alignSelf: 'flex-start'}}
+        />
       </Card.Content>
     </Card>
   )

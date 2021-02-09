@@ -22,7 +22,7 @@ export default function App() {
         <Text style={styles.subtitle}>  Lihat semua</Text>
       </Text>
       <View style={{marginTop: 20, height: 300}}>
-        <ScrollView horizontal={true} style={{paddingHorizontal: 20}}>
+        <ScrollView horizontal={true} style={{paddingHorizontal: 20}} showsHorizontalScrollIndicator={false}>
           {
             items?.map(item => <ProductCard key={item.id} item={item}/>)
           }
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     fontSize: 25
   },
   subtitle: {
-    color: '#77b300',
+    color: '#33cc33',
     fontWeight: 'bold',
     fontSize: 15
   }
