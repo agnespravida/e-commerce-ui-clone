@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "UNEED Powerbank 10000mAh built in cable fast charging",
+      "price": 82000,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/300-square/VqbcmM/2020/11/17/61409c1e-0246-4ed1-aa93-4824501b5293.jpg.webp"
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi Mi Smart Band 5",
+      "price": 429000,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/300-square/VqbcmM/2021/1/13/07c7f168-1b20-457b-8f23-aec9ee5f7b18.jpg.webp"
+    },
+    {
+      "id": 3,
+      "name": "Portable laptop stand",
+      "price": 85000,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/200-square/VqbcmM/2020/10/31/12c4ef03-4f31-4ecb-adc3-294528f27b77.jpg.webp"
+    },
+    {
+      "id": 4,
+      "name": "Masker KN 95",
+      "price": 1399,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/200-square/product-1/2020/7/8/30969591/30969591_ff6c6926-8a18-47ae-9c44-4865545ee2ea_1512_1512.webp"
+    },
+    {
+      "id": 5,
+      "name": "Angola Rak Troli 3 Susun",
+      "price": 118000,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/200-square/VqbcmM/2021/1/20/7102460c-1c0c-4720-9dce-37d59c1e054d.jpg.webp"
+    },
+    {
+      "id": 6,
+      "name": "Rakuzen Premium Trashbag",
+      "price": 55000,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/300-square/VqbcmM/2020/11/11/5deeaa83-14b6-4a28-9488-06d3f4049c70.jpg.webp"
+    }
+  ]
+}
